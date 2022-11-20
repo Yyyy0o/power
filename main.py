@@ -6,7 +6,7 @@ import pandas
 import detail
 
 sheet_name = '停电记录'
-data_key = ['区县', '停电时间', '开始发电时间', '结束发电时间']
+data_key = ['区县', '停电时间', '动环来电时间', '开始发电时间', '结束发电时间']
 
 
 def parse_file(path):
